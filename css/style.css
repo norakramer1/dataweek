@@ -1,24 +1,36 @@
 body {
-    margin: 0;
-  }
-  
-  .container {
-    background-color: #333;
-    padding: 1rem;
-    margin-top: 1rem;
-  }
-  
-  .draggable {
-    padding: 1rem;
-    background-color: white;
-    border: 1px solid black;
-    /* cursor: move; */
-  }
-  
-  .draggable.dragging {
-    opacity: .5;
-  }
-  
-.green {
-    background-color: green;
+  margin: 0;
+  height: 100vh;
 }
+
+.container {
+  /* background-color: #333; */
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.draggable {
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* cursor: move; */
+}
+
+.draggable.dragging {
+  opacity: .5;
+}
+
+.green {
+  background-color: green;
+}
+
+
+.timeline {
+background-color: aqua;
+position: absolute;
+bottom: 0;
+width: 100vw;
+height: 70px;
+}
+
