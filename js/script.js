@@ -7,7 +7,12 @@ const containers = document.querySelectorAll('.container')
 draggables.forEach(draggable => {
 
     draggable.addEventListener('click', () => {
-        console.log('works')
+      // let audio = document.getElementById("audio");
+        // audio.play();
+
+        let audio = draggable.children[0];
+        console.log(audio)
+        audio.play();
         draggable.classList.toggle('green')
         
     })
