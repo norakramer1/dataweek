@@ -1,19 +1,37 @@
+/* 
+FAC301 geel
+FE3200 rood
+
+
+*/
+
+
 body {
   margin: 0;
-  height: 100vh;
+  max-height: 90vh;
+  background-image: url("../img/Africa_background.png");
+  
 }
 
-.container {
+div.container:first-of-type {
   /* background-color: #333; */
+   height: 100vh;
   padding: 1rem;
   margin-top: 1rem;
+   overflow-y: scroll;
+
 }
 
+
+
 .draggable {
-  padding: 1rem;
-  background-color: white;
+  background-color: #FAC301;
   border: 1px solid black;
   border-radius: 5px;
+   width: 80px;
+   height: 60px; 
+
+  word-break: break-all;
   /* cursor: move; */
 }
 
@@ -22,15 +40,90 @@ body {
 }
 
 .green {
-  background-color: green;
+  background-color: #FAC301;
+}
+
+button:active {
+  background-color: #FE3200;
 }
 
 
 .timeline {
-background-color: aqua;
-position: absolute;
+background-color: #FAC301;
+position: sticky;
 bottom: 0;
 width: 100vw;
-height: 70px;
+height: 100px;
+}
+
+img {
+  max-width: 200px;
+}
+
+.one {
+  height: calc(80px + 10px);
+  width: calc(60px + 10px);
+}
+
+.two {
+  height: calc(80px + 20px);
+  width: calc(60px + 20px);
+}
+
+.three {
+  height: calc(80px + 30px);
+  width: calc(60px + 30px);
+}
+
+.four {
+  height: calc(80px + 40px);
+  width: calc(60px + 40px);
+}
+
+.five {
+  height: calc(80px + 50px);
+  width: calc(60px + 50px);
+}
+
+.six {
+  height: calc(80px + 60px);
+  width: calc(60px + 60px);
+}
+
+.seven {
+  height: calc(80px + 70px);
+  width: calc(60px + 70px);
+}
+
+.eight {
+  height: calc(80px + 80px);
+  width: calc(60px + 80px);
+}
+
+.nine {
+  height: calc(80px + 90px);
+  width: calc(60px + 90px);
+}
+
+.ten {
+  height: calc(80px + 100px);
+  width: calc(60px + 100px);
+}
+
+.eleven {
+  height: calc(80px + 110px);
+  width: calc(60px + 110px);
+
+}
+
+.twelve {
+  height: calc(80px + 120px);
+  width: calc(60px + 120px);
+
+}
+
+div.container.timeline ~ button.draggable {
+  width: 80px;
+  height: 20px;
 }
 
