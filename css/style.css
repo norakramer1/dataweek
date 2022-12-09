@@ -9,9 +9,14 @@ FE3200 rood
 body {
   margin: 0;
   max-height: 90vh;
-  background-image: url("../img/Africa_background.svg");
-  object-fit: cover;
+  background-image: url("../img/Africa_background.png");
+
   background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+body img {
+  object-fit: contain;
 }
 
 section {
@@ -57,6 +62,13 @@ button:active {
   background-color: #FE3200;
 }
 
+
+div.container.timeline p {
+  font-family: sans-serif;
+  background-color: #FE3200;
+  /* padding-bottom: 10%; */
+  padding: .5%;
+}
 
 .timeline {
 background-color: #FE3200;
@@ -136,7 +148,13 @@ img {
 
 }
 
-div.container.timeline ~ button.draggable {
+.fourteen {
+  height: calc(80px + 140px);
+  width: calc(60px + 140px);
+
+}
+
+div.container.timeline > button.draggable {
   width: 80px;
   height: 20px;
 }
