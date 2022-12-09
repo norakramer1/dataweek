@@ -1,7 +1,7 @@
 /* 
 FAC301 geel
 FE3200 rood
-
+/Users/norakramer/Desktop/HvA/CMD/jaar 3: minor/themasemester ID/dataweek/dataweek/img/Africa_background.png
 
 */
 
@@ -9,9 +9,19 @@ FE3200 rood
 body {
   margin: 0;
   max-height: 90vh;
-  background-image: url("../img/Africa_background.png");
-  
+  background-image: url("../img/Africa_background.svg");
+  object-fit: cover;
+  background-repeat: no-repeat;
 }
+
+section {
+
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+
 
 div.container:first-of-type {
   /* background-color: #333; */
@@ -49,15 +59,19 @@ button:active {
 
 
 .timeline {
-background-color: #FAC301;
+background-color: #FE3200;
 position: sticky;
 bottom: 0;
 width: 100vw;
 height: 100px;
 }
 
-img {
+/* img {
   max-width: 200px;
+} */
+
+img {
+  max-width: 20%;
 }
 
 .one {
