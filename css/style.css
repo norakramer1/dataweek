@@ -63,7 +63,8 @@ button:active {
 }
 
 
-div.container.timeline p {
+div.container.timeline h2 {
+
   font-family: sans-serif;
   background-color: #FE3200;
   /* padding-bottom: 10%; */
